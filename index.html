@@ -5,7 +5,7 @@
   <title>Sibam Visuals | Professional Video Editor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google Fonts -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
@@ -30,9 +30,8 @@
 <section class="about reveal">
   <h2>About Us</h2>
   <p>
-    Sibam Visuals specializes in high-impact gaming edits,
+    Sibam Visuals specializes in gaming edits, motion graphics,
     short-form content, and cinematic storytelling.
-    Every frame is crafted for impact.
   </p>
 </section>
 
@@ -52,8 +51,8 @@
     </div>
 
     <div class="card">
-      <h3>AMV Editing</h3>
-      <p>Smooth and energetic transitions.</p>
+      <h3>Motion Graphics</h3>
+      <p>Clean animated graphics & transitions.</p>
     </div>
 
     <div class="card">
@@ -70,30 +69,27 @@
   <div class="grid">
 
     <div class="project">
-      <iframe 
-        src="https://www.youtube.com/embed/LL8snyN0FLg"
-        allowfullscreen>
-      </iframe>
+      <video controls>
+        <source src="work1.mp4" type="video/mp4">
+      </video>
       <h3>Recent Work #1</h3>
     </div>
 
     <div class="project">
-      <iframe 
-        src="https://www.youtube.com/embed/aoPxuc3zeTI"
-        allowfullscreen>
-      </iframe>
-      <h3>Recent Work #2 (Shorts)</h3>
+      <video controls>
+        <source src="work2.mp4" type="video/mp4">
+      </video>
+      <h3>Recent Work #2</h3>
     </div>
 
   </div>
 </section>
 
-<!-- ORDER SECTION -->
+<!-- ORDER -->
 <section id="order" class="order reveal">
   <h2>Place Your Order</h2>
 
   <form action="https://formsubmit.co/sibamsvisualbusiness@gmail.com" method="POST">
-
     <input type="hidden" name="_captcha" value="false">
 
     <input type="text" name="name" placeholder="Your Name" required>
@@ -102,10 +98,32 @@
     <select name="service">
       <option>Reels Editing</option>
       <option>Gaming Montage</option>
-      <option>AMV Edit</option>
+      <option>Motion Graphics</option>
       <option>Color Grading</option>
     </select>
 
+    <textarea name="details" placeholder="Project details..." required></textarea>
+
+    <button type="submit">Submit Order ⚡</button>
+  </form>
+</section>
+
+<!-- CONTACT -->
+<section class="contact reveal">
+  <h2>Let’s Work Together</h2>
+  <p>Discord: <strong>sibamsvisual</strong></p>
+  <p>Email: <strong>sibamsvisualbusiness@gmail.com</strong></p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Sibam Visuals</p>
+  <p class="vortex">Designed & Watermarked by Vortex ⚡</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
     <textarea name="details" placeholder="Project details..." required></textarea>
 
     <button type="submit">Submit Order ⚡</button>
